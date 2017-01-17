@@ -1,0 +1,2 @@
+find $DIR_PATH* -exec ldd {} \; | grep -vE "not" | cut -d " " -f 1 | sed '/\//d' | sort | uniq -c | sort -nr | sed 's/\t/    /'
+

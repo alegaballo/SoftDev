@@ -1,0 +1,3 @@
+'/usr/share/applications/terminator.desktop' thums/%.jpg : pictures/%.jpg	
+	echo $^
+	convert -thumbnail 100 $^ thumbs/$^
