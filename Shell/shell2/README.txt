@@ -11,14 +11,13 @@ You can resolv an IP to a country by running: geoiplookup <ip>
 For instance, if you run your code on the log snippet you find
 in this folder, the output should be:
 
-      6  US, United States
-      3  IP Address not found
-      1  TW, Taiwan
-      1  MY, Malaysia
-      1  FR, France
-      1  ES, Spain
-      1  DK, Denmark
-      1  CA, Canada
+     7  US, United States
+     3  IP Address not found
+     1  TW, Taiwan
+     1  MY, Malaysia
+     1  ES, Spain
+     1  DK, Denmark
+     1  CA, Canada
 
  -----------====== Submission  ======--------------
 
